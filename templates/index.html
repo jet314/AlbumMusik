@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Album</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='CSS/styles.css') }}">
+</head>
+<body>
+    <h1>Daftar Album Musik</h1>
+    <ul>
+        <li><a href="{{ url_for('album', album_id=1) }}">Album 1</a></li>
+        <li><a href="{{ url_for('album', album_id=2) }}">Album 2</a></li>
+    </ul>
+</body>
+</html>
